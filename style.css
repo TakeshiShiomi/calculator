@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 1px;
+}
+
+li {
+  border: solid 1px black;
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  margin: -1px;
+}
+
+.container {
+  width: min-content;
+  margin: 70px auto;
+  border: solid 1px black;
+  padding: 15px;
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+#inputLabel {
+  width: 100%;
+  height: 70px;
+  text-align: right;
+  font-size: 30px;
+  line-height: 70px;
+  border: solid 1px black;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.lower {
+  width: 138px;
+}
+
+.btn0 {
+  width: 140px;
+}
+
